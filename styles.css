@@ -8,8 +8,6 @@ nav {
   background-color: white;
   padding: 13px 30px 13px 10px;
   margin: 0;
- 
-
 }
 
 #head-div {
@@ -110,4 +108,51 @@ input {
 #upload-signin {
     display:flex;
     justify-content: space-between;
+}
+
+#language-div{
+    border: 2px solid rgb(22, 122, 198);
+    margin-top: 10px;
+}
+#blue-div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(22, 122, 198);
+    padding: 0px 30px 0px 20px;
+}
+#choose-lang-icon{
+    width: 25px;
+    height: 15px;
+    background-image: url('images/Symbols.png');
+    background-position: -119px -376px;
+    display: inline-block;
+    margin-right: 20px;
+}
+#lang-par{
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+#blue-div-lang{
+    display: flex;
+    align-items: center;
+}
+#lang-close{
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+#white-div{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+    padding: 0px 30px 0px 20px;
+    font-family: sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(22, 122, 198);
 }
