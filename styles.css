@@ -1,13 +1,113 @@
-body{
-    background-color: #f1f1f1;
+body {
+  background-color: #f1f1f1;
+  display: block;
+  padding: 0;
+  margin: 0;
 }
-nav{
-    background-color: white;
+nav {
+  background-color: white;
+  padding: 13px 30px 13px 10px;
+  margin: 0;
+ 
+
 }
-#menu-icon{
-    background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
-    width: 16px;
-    height: 16px;
-    background-position: -198px -862px;
+
+#head-div {
+  height: 29px;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  
+  
+}
+
+#menu-icon {
+    display:flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+#menu-icon > div{
+  background-image: url("images/Symbols.png");
+  width: 16px;
+  height: 16px;
+  background-position: -198px -862px;
+  display: inline-block;
+}
+
+sup {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 50%;
+}
+
+#input-div{
+    display: flex;
+    width: 60%;
+    background-color: red;
+}
+
+input {
+  border-radius: 0;
+  border: 1px solid lightgray;
+  width: 90%;
+  background-color: white;
+  height: inherit;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1) inset;
+  padding: 0 0 0 10px;
+  font-size: 16px;
+
+}
+
+#search {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid lightgray;
+  width: 10%;
+  align-items: center;
+  background-color: #f1f1f1;
+
+}
+
+#search > div {
+  width: 16px;
+  height: 16px;
+  background-image: url("images/Symbols.png");
+  background-position: -28px -66px;
+
+}
+#upload-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+   
+}
+
+ #upload-icon > div {
+    width: 20px;
+    height: 23px;
+    background-image: url("images/Symbols.png");
+    background-position: -125px -314px;  
     display: inline-block;
+    opacity: 50%;
+}
+
+#sign-in {
+    color: white;
+    background-color: rgb(22, 122, 198);
+    border: 0;
+    text-align: center;
+    height: 29px;
+
+}
+
+#menu-youtube {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+#upload-signin {
+    display:flex;
+    justify-content: space-between;
 }
