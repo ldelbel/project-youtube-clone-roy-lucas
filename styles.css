@@ -1,0 +1,13 @@
+body{
+    background-color: #f1f1f1;
+}
+nav{
+    background-color: white;
+}
+#menu-icon{
+    background-image: url('https://archive.vn/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png');
+    width: 16px;
+    height: 16px;
+    background-position: -198px -862px;
+    display: inline-block;
+}
