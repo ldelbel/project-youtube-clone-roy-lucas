@@ -1,10 +1,23 @@
+@font-face {
+    font-family: 'League Gothic';
+    src: url('leaguegothic-regular-webfont.eot');
+    src: url('leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('leaguegothic-regular-webfont.woff') format('woff'),
+         url('leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
   background-color: #f9f9f9;
   display: block;
   padding: 0;
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: 'League Gothic';
+  font-weight: normal;
+  font-style: normal;
 }
+
 nav {
   background-color: white;
   padding: 13px 30px 13px 10px;
@@ -175,7 +188,7 @@ main{
 }
 iframe{
     width: 100%;
-    height: 415.16px;
+    height: 355px;
 }
 
 #video-info-sec > h3 {
@@ -281,4 +294,65 @@ iframe{
     font-size: 13px;
     color: #776464;
     font-weight: 600;
+}
+
+#comment-heading{
+    display: flex;
+    align-items: center;
+}
+#comment-heading > p{
+    width: 30%;
+}
+#sort-div{
+    display:flex;
+    align-items: center;
+}
+#sort-div > img{
+    width: 5%;
+    height: auto;
+    margin-right: 10px;
+}
+.comments{
+    display: flex;
+    justify-content: space-around;
+}
+.comm-icons{
+    display:flex;
+    align-items: center;
+    padding: 0;
+    
+}
+.comm-avatar{
+    margin-right: 30px;
+}
+.comm-avatar > img{
+    border-radius: 50%;
+}
+.written > h5{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.written > p{
+    font-size : 14px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.comm-like{
+    display:flex;
+    align-items: center;
+    margin-right: 20px;
+    transform: scale(0.6);
+    margin-left: 0;
+}
+.comm-dislike{
+    display:flex;
+    align-items: center;
+    margin-right: 20px;
+    transform: scale(0.6)
+}
+.comm-icons > p{
+    font-size: 13px;
+    color: #776464;
 }
