@@ -296,7 +296,9 @@ iframe{
     align-items: center;
  
 }
-
+.icon-btn:hover{
+    cursor: pointer;
+}
 .icon-btn > img {
     transform: scale(0.7);
 }
@@ -311,6 +313,9 @@ iframe{
     /* font-weight: 700; */
     border-radius: 2px;
 
+}
+#subs-btn:hover{
+    cursor: pointer;
 }
 
 #words {
