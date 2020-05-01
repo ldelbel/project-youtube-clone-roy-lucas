@@ -17,6 +17,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
 #upload-signin {
   margin-right: 0;
 }
@@ -293,7 +294,6 @@ iframe {
   border: none;
   color: white;
   font-size: 15px;
-  /* font-weight: 700; */
   border-radius: 2px;
 }
 #subs-btn:hover {
