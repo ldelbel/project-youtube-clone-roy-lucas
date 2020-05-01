@@ -18,7 +18,7 @@ body {
   font-style: normal;
 }
 
-#upload-signin {
+.upload-signin {
   margin-right: 0;
   display: flex;
   justify-content: space-between;
@@ -36,7 +36,7 @@ nav {
   z-index: 1;
 }
 
-#head-div {
+.head-div {
   height: 29px;
   margin: 0;
   display: flex;
@@ -44,13 +44,13 @@ nav {
   padding-right: 0;
 }
 
-#menu-icon {
+.menu-icon {
   display: flex;
   align-items: center;
   margin-right: 10px;
 }
 
-#menu-icon > div {
+.menu-icon > div {
   background-image: url("images/Symbols.png");
   width: 16px;
   height: 16px;
@@ -64,7 +64,7 @@ sup {
   opacity: 50%;
 }
 
-#input-div {
+.input-div {
   display: flex;
   width: 60%;
   background-color: red;
@@ -81,7 +81,7 @@ input {
   font-size: 16px;
 }
 
-#search {
+.search {
   display: flex;
   justify-content: space-around;
   border: 1px solid lightgray;
@@ -90,96 +90,33 @@ input {
   background-color: #f1f1f1;
 }
 
-#search > div {
+.search > span {
   width: 16px;
   height: 16px;
   background-image: url("images/Symbols.png");
   background-position: -28px -66px;
 }
 
-#upload-icon {
-  display: flex;
-  align-items: center;
-  margin-right: 50px;
-}
-
 .top-nav-icon {
   transform: scale(0.55);
 }
 
-#user {
+.user {
   transform: scale(0.4);
   border-radius: 50%;
 }
 
-#bell {
+.bell {
   transform: scale(0.8);
 }
 
-#apps {
+.apps {
   transform: scale(0.7);
 }
 
-#sign-in {
-  color: white;
-  background-color: rgb(22, 122, 198);
-  border: 0;
-  text-align: center;
-  height: 29px;
-}
-
-#menu-youtube {
+.menu-youtube {
   display: flex;
   justify-content: space-between;
-}
-
-#language-div {
-  border: 2px solid rgb(22, 122, 198);
-  margin-top: 10px;
-}
-
-#blue-div {
-  display: flex;
-  justify-content: space-between;
-  background-color: rgb(22, 122, 198);
-  padding: 0 30px 0 20px;
-}
-
-#choose-lang-icon {
-  width: 25px;
-  height: 15px;
-  background-image: url("images/Symbols.png");
-  background-position: -119px -376px;
-  display: inline-block;
-  margin-right: 20px;
-}
-
-#lang-par {
-  display: inline-block;
-  color: white;
-  font-size: 13px;
-  font-family: sans-serif;
-}
-
-#blue-div-lang {
-  display: flex;
-  align-items: center;
-}
-
-#lang-close {
-  color: white;
-  font-size: 13px;
-  font-family: sans-serif;
-}
-
-#white-div {
-  background-color: white;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 13px;
-  padding: 0 30px 0 20px;
-  font-family: sans-serif;
 }
 
 a {
@@ -194,17 +131,17 @@ main {
   margin-bottom: 30px;
 }
 
-#left-col-div {
+.left-col-div {
   flex-basis: 60%;
   margin: 20px;
 }
 
-#right-col-div {
+.right-col-div {
   flex-basis: 36%;
   padding-top: 0;
 }
 
-#iframe-div {
+.iframe-div {
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -219,14 +156,15 @@ iframe {
   right: 0;
   width: 100%;
   height: 100%;
+  border: none;
 }
 
-#video-info-sec > h3 {
+.video-info-sec > h3 {
   margin-bottom: 0;
   padding-bottom: 0;
 }
 
-#video-heading-div {
+.video-heading-div {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -235,22 +173,22 @@ iframe {
   color: #776464;
 }
 
-#social-media-div {
+.social-media-div {
   display: flex;
   align-items: center;
 }
 
-#like-dislike-div {
+.like-dislike-div {
   display: flex;
   border-bottom: 2px solid rgb(22, 122, 198);
   padding: 0 0 0 0;
 }
 
-#avatar-img {
+.avatar-img {
   border-radius: 50%;
 }
 
-#published-section {
+.published-section {
   display: flex;
   justify-content: space-between;
   border-top: 1px solid lightgray;
@@ -259,13 +197,13 @@ iframe {
   padding-bottom: 20px;
 }
 
-#right-div {
+.right-div {
   display: flex;
   flex-direction: column;
   margin-left: 30px;
 }
 
-#upper-div {
+.upper-div {
   display: flex;
   justify-content: space-between;
   padding-top: 0;
@@ -273,17 +211,17 @@ iframe {
   align-items: center;
 }
 
-#name-subs {
+.name-subs {
   display: flex;
   padding-top: 0;
   flex-direction: column;
 }
 
-#name-subs > h4 {
+.name-subs > h4 {
   margin: 0;
 }
 
-#name-subs > span {
+.name-subs > span {
   font-size: 13px;
 }
 
@@ -300,7 +238,7 @@ iframe {
   transform: scale(0.7);
 }
 
-#subs-btn {
+.subs-btn {
   height: 40px;
   width: 120px;
   background-color: #c00;
@@ -310,15 +248,15 @@ iframe {
   border-radius: 2px;
 }
 
-#subs-btn:hover {
+.subs-btn:hover {
   cursor: pointer;
 }
 
-#words {
+.words {
   font-size: 14px;
 }
 
-#words > a {
+.words > a {
   font-size: 13px;
   color: #776464;
   font-weight: 600;
@@ -335,23 +273,23 @@ iframe {
   color: #776464;
 }
 
-#words > p {
+.words > p {
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
-#comment-heading {
+.comment-heading {
   display: flex;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-#comment-heading > p {
+.comment-heading > p {
   width: 30%;
 }
 
-#sort-div {
+.sort-div {
   display: flex;
   align-items: center;
 }
@@ -360,7 +298,7 @@ iframe {
   border-radius: 50%;
 }
 
-#sort-div > img {
+.sort-div > img {
   width: 5%;
   height: auto;
   margin-right: 10px;
@@ -402,7 +340,7 @@ iframe {
   transform: scale(0.6);
 }
 
-#upnext-div {
+.upnext-div {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0;
@@ -410,17 +348,17 @@ iframe {
   align-items: center;
 }
 
-#upnext-div > p {
+.upnext-div > p {
   font-weight: 550;
 }
 
-#autoplay-div {
+.autoplay-div {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-#autoplay-div > p {
+.autoplay-div > p {
   margin-right: 10px;
   color: #776464;
 }
@@ -430,24 +368,28 @@ iframe {
   margin-bottom: 5px;
 }
 
+.thumbnails > img {
+    height: auto;
+}
+
 .thumb-link {
   color: black;
 }
 
-#thumb-desc {
+.thumb-desc {
   margin-left: 7px;
   margin-top: 0;
   padding-top: 0;
 }
 
-#thumb-desc > h4 {
+.thumb-desc > h4 {
   margin: 0;
   padding: 0;
   margin-bottom: 10px;
   font-size: 14px;
 }
 
-#thumb-desc > p {
+.thumb-desc > p {
   font-size: 12px;
   margin-bottom: 4px;
   color: #776464;
@@ -459,7 +401,7 @@ iframe {
   margin-bottom: 15px;
 }
 
-#left-col-more {
+.left-col-more {
   display: flex;
   align-items: center;
   justify-content: center;
