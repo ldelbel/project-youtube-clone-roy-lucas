@@ -326,6 +326,17 @@ iframe {
   font-weight: 600;
 }
 
+.written > p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.comm-icons > p {
+  font-size: 13px;
+  color: #776464;
+}
+
 #words > p {
   margin-top: 15px;
   margin-bottom: 10px;
@@ -345,6 +356,10 @@ iframe {
 #sort-div {
   display: flex;
   align-items: center;
+}
+
+.comm-avatar > img {
+  border-radius: 50%;
 }
 
 #sort-div > img {
@@ -368,20 +383,10 @@ iframe {
   margin-right: 30px;
 }
 
-.comm-avatar > img {
-  border-radius: 50%;
-}
-
 .written > h5 {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
-}
-
-.written > p {
-  font-size: 14px;
-  margin-top: 10px;
-  margin-bottom: 0;
 }
 
 .comm-like {
@@ -397,11 +402,6 @@ iframe {
   align-items: center;
   margin-right: 20px;
   transform: scale(0.6);
-}
-
-.comm-icons > p {
-  font-size: 13px;
-  color: #776464;
 }
 
 #right-col-div {
