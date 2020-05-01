@@ -20,6 +20,9 @@ body {
 
 #upload-signin {
   margin-right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav {
@@ -130,12 +133,6 @@ input {
   justify-content: space-between;
 }
 
-#upload-signin {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 #language-div {
   border: 2px solid rgb(22, 122, 198);
   margin-top: 10px;
@@ -204,6 +201,7 @@ main {
 
 #right-col-div {
   flex-basis: 36%;
+  padding-top: 0;
 }
 
 #iframe-div {
@@ -402,10 +400,6 @@ iframe {
   align-items: center;
   margin-right: 20px;
   transform: scale(0.6);
-}
-
-#right-col-div {
-  padding-top: 0;
 }
 
 #upnext-div {
