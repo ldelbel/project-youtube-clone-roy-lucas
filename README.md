@@ -12,7 +12,7 @@ This project was made to demonstrate the authors' understanding of basic HTML an
 
 ## Live Demo
 
-[Live Demo Link](shorturl.at/zHK27)
+[Live Demo Link](http://shorturl.at/zHK27)
 
 ## Authors
 
