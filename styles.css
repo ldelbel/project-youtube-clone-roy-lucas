@@ -93,6 +93,7 @@ input {
   background-image: url("images/Symbols.png");
   background-position: -28px -66px;
 }
+
 #upload-icon {
   display: flex;
   align-items: center;
@@ -139,12 +140,14 @@ input {
   border: 2px solid rgb(22, 122, 198);
   margin-top: 10px;
 }
+
 #blue-div {
   display: flex;
   justify-content: space-between;
   background-color: rgb(22, 122, 198);
-  padding: 0px 30px 0px 20px;
+  padding: 0 30px 0 20px;
 }
+
 #choose-lang-icon {
   width: 25px;
   height: 15px;
@@ -153,44 +156,52 @@ input {
   display: inline-block;
   margin-right: 20px;
 }
+
 #lang-par {
   display: inline-block;
   color: white;
   font-size: 13px;
   font-family: sans-serif;
 }
+
 #blue-div-lang {
   display: flex;
   align-items: center;
 }
+
 #lang-close {
   color: white;
   font-size: 13px;
   font-family: sans-serif;
 }
+
 #white-div {
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-size: 13px;
-  padding: 0px 30px 0px 20px;
+  padding: 0 30px 0 20px;
   font-family: sans-serif;
 }
+
 a {
   text-decoration: none;
   color: rgb(22, 122, 198);
 }
+
 main {
   display: flex;
   justify-content: space-around;
-  padding: 0px 120px;
+  padding: 0 120px;
   margin-bottom: 30px;
 }
+
 #left-col-div {
   flex-basis: 60%;
   margin: 20px;
 }
+
 #right-col-div {
   flex-basis: 36%;
 }
@@ -201,6 +212,7 @@ main {
   width: 100%;
   padding-top: 56.25%;
 }
+
 iframe {
   position: absolute;
   top: 0;
@@ -229,10 +241,11 @@ iframe {
   display: flex;
   align-items: center;
 }
+
 #like-dislike-div {
   display: flex;
   border-bottom: 2px solid rgb(22, 122, 198);
-  padding: 0px 0px 0px 0px;
+  padding: 0 0 0 0;
 }
 
 #avatar-img {
@@ -280,9 +293,11 @@ iframe {
   display: flex;
   align-items: center;
 }
+
 .icon-btn:hover {
   cursor: pointer;
 }
+
 .icon-btn > img {
   transform: scale(0.7);
 }
@@ -290,12 +305,13 @@ iframe {
 #subs-btn {
   height: 40px;
   width: 120px;
-  background-color: #cc0000;
+  background-color: #c00;
   border: none;
   color: white;
   font-size: 15px;
   border-radius: 2px;
 }
+
 #subs-btn:hover {
   cursor: pointer;
 }
@@ -309,6 +325,7 @@ iframe {
   color: #776464;
   font-weight: 600;
 }
+
 #words > p {
   margin-top: 15px;
   margin-bottom: 10px;
@@ -320,38 +337,47 @@ iframe {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 #comment-heading > p {
   width: 30%;
 }
+
 #sort-div {
   display: flex;
   align-items: center;
 }
+
 #sort-div > img {
   width: 5%;
   height: auto;
   margin-right: 10px;
 }
+
 .comments {
   display: flex;
   justify-content: space-around;
 }
+
 .comm-icons {
   display: flex;
   align-items: center;
   padding: 0;
 }
+
 .comm-avatar {
   margin-right: 30px;
 }
+
 .comm-avatar > img {
   border-radius: 50%;
 }
+
 .written > h5 {
   margin-top: 0;
   margin-bottom: 0;
   padding-bottom: 0;
 }
+
 .written > p {
   font-size: 14px;
   margin-top: 10px;
@@ -365,12 +391,14 @@ iframe {
   transform: scale(0.6);
   margin-left: 0;
 }
+
 .comm-dislike {
   display: flex;
   align-items: center;
   margin-right: 20px;
   transform: scale(0.6);
 }
+
 .comm-icons > p {
   font-size: 13px;
   color: #776464;
@@ -424,6 +452,7 @@ iframe {
   margin-bottom: 10px;
   font-size: 14px;
 }
+
 #thumb-desc > p {
   font-size: 12px;
   margin-bottom: 4px;
