@@ -12,7 +12,7 @@ This project was made to demonstrate the authors' understanding of basic HTML an
 
 ## Live Demo
 
-[Live Demo Link](http://shorturl.at/zHK27)
+[Live Demo Link](https://rawcdn.githack.com/ldelbel/project-youtube-clone-roy-lucas/7ce7b98869d11c63da8730f4f84563c9aae5a95a/index.html)
 
 ## Authors
 
